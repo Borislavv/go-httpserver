@@ -1,3 +1,5 @@
+github.com/Borislavv/go-liveness-prober v0.0.1 h1:On4XU2WMYNslPsi4i7WMldjdCqZTYDzUyQiEZG9ZDg8=
+github.com/Borislavv/go-liveness-prober v0.0.1/go.mod h1:IaY1arVSD7zd6DINXxAEDOhWnbI2sSU2Tai0sgBCj/o=
 github.com/Borislavv/go-logger v0.0.8 h1:N5EVlYKue/A8oztKbCPkNLLy0z1pugZx756Jqqb8qfY=
 github.com/Borislavv/go-logger v0.0.8/go.mod h1:g9aIr+ltZd5qZy2u+nhu1j9oIrJJETFjbvWuoJX4a3k=
 github.com/andybalholm/brotli v1.1.0 h1:eLKJA0d02Lf0mVpIDgYnqXcUn0GqVmEFny3VuID1U3M=

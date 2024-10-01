@@ -3,6 +3,7 @@ module github.com/Borislavv/go-httpserver
 go 1.23.1
 
 require (
+	github.com/Borislavv/go-liveness-prober v0.0.1 // indirect
 	github.com/Borislavv/go-logger v0.0.8 // indirect
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/fasthttp/router v1.5.2 // indirect
