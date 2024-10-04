@@ -22,14 +22,11 @@ type HTTP struct {
 func New(
 	ctx context.Context,
 	logger logger.Logger,
+	config config.Configurator,
 	controllers []controller.HttpController,
 	middlewares []middleware.HttpMiddleware,
 ) (*HTTP, error) {
-	cfg, err := config.Load()
-	if err != nil {
-		return nil, err
-	}
-	s := &HTTP{ctx: ctx, logger: logger, config: cfg}
+	s := &HTTP{ctx: ctx, logger: logger, config: config}
 	s.initServer(s.buildRouter(controllers), middlewares)
 	return s, nil
 }
